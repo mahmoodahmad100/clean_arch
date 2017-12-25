@@ -1,7 +1,7 @@
 <?php 
 namespace CleanArch\Invoicer\Domain\Entity;
 
-abstract AbstractEntity
+abstract class AbstractEntity
 {
 	protected $id;
 
