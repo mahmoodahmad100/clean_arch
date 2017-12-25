@@ -1,4 +1,5 @@
 <?php 
+
 namespace CleanArch\Invoicer\Domain\Entity;
 
 class Customer extends AbstractEntity
@@ -30,5 +31,3 @@ class Customer extends AbstractEntity
 	}
 
 }
-
- ?>

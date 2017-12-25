@@ -1,4 +1,5 @@
 <?php 
+
 namespace CleanArch\Invoicer\Domain\Entity;
 
 abstract class AbstractEntity
@@ -15,6 +16,3 @@ abstract class AbstractEntity
 		return $this;
 	}
 }
-
-
- ?>
