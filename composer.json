@@ -1,7 +1,7 @@
 {
 	"autoload":{
 		"psr-4":{
-			"CleanArch\\Invoicer": ["src/"]
+			"CleanArch\\Invoicer\\": ["src/"]
 		}
 	}
 }
