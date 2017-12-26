@@ -2,7 +2,7 @@
 
 namespace CleanArch\Invoicer\Domain\Repository;
 
-interface OrderRepositoryInterface implements RepositoryInterface
+interface OrderRepositoryInterface extends RepositoryInterface
 {
 	public function getUninvoicedOrders();
 }

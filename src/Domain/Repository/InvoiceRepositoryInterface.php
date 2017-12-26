@@ -2,7 +2,7 @@
 
 namespace CleanArch\Invoicer\Domain\Repository;
 
-interface InvoiceRepositoryInterface implements RepositoryInterface
+interface InvoiceRepositoryInterface extends RepositoryInterface
 {
 
 }
