@@ -3,5 +3,8 @@
 		"psr-4":{
 			"CleanArch\\Invoicer\\": ["src/"]
 		}
+	},
+	"require-dev": {
+		"peridot-php/peridot": "^1.19"
 	}
 }
