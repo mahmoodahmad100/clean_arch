@@ -8,5 +8,8 @@ use CleanArch\Invoicer\Domain\Entity\Order;
 
 class InvoiceFactory
 {
-	
+	public function createFromOrder(Order $order)
+	{
+		return new Invoice();
+	}
 }
