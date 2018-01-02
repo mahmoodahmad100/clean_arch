@@ -16,5 +16,16 @@ descripe('InvoiceFactory', function(){
 				'CleanArch\Invoicer\Domain\Entity\Invoice'
 			);	
 		});
+
+		it("should set the total of the invoice",function(){
+			$order = new Order();
+			$order->setTotal(300);
+
+			$factory = new InvoiceFactory();
+			$invoice = $factory->createFromOrder($order);
+
+			expect($invoice->getTotal())->to->equal(300);
+		});
+
 	})
 });
