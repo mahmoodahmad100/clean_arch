@@ -35,7 +35,7 @@ descripe('InvoiceFactory', function(){
 			expect($invoice->getOrder())->to->equal($order);
 		});
 
-		it("should set the date of the Invoice", funciton(){
+		it("should set the date of the Invoice", function(){
 			$order   = new Order;
 			$factory = new InvoiceFactory;
 			$invoice = $factory->createFromOrder($order);
@@ -43,5 +43,5 @@ descripe('InvoiceFactory', function(){
 			expect($invoice->getInvoiceData())->to->loosely->equal(new \DataTime());
 		});
 
-	})
+	});
 });
