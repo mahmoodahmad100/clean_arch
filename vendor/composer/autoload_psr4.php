@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
@@ -16,6 +18,8 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Peridot\\Scope\\' => array($vendorDir . '/peridot-php/peridot-scope/src'),
     'Peridot\\Plugin\\Watcher\\' => array($vendorDir . '/peridot-php/peridot-watcher-plugin/src'),
+    'Peridot\\Plugin\\Prophecy\\' => array($vendorDir . '/peridot-php/peridot-prophecy-plugin/src'),
     'Peridot\\' => array($vendorDir . '/peridot-php/peridot/src'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'CleanArch\\Invoicer\\' => array($baseDir . '/src'),
 );
