@@ -14,5 +14,9 @@ describe("InvoicingService", function(){
 			$service = new InvoicingService($this->repository->reveal());
 			$service->generateInvoices();
 		});
+
+		afterEach(function () {
+			$this->getProphet()->checkPrediections();
+		});
 	});
 });
