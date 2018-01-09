@@ -24,7 +24,7 @@ class Invoice extends AbstractEntity
 		return $this->invoiceDate;
 	}
 
-	public function setInvoiceDate(\DateTime $invoiceDate);
+	public function setInvoiceDate(\DateTime $invoiceDate)
 	{
 		$this->invoiceDate = $invoiceDate;
 		return $this;
