@@ -1,11 +1,10 @@
 <?php
 
-use CleanArch\Invoicer\Domain\Entity\Invoice;
 use CleanArch\Invoicer\Domain\Entity\Order;
 use CleanArch\Invoicer\Domain\Factory\InvoiceFactory;
 
-descripe('InvoiceFactory', function(){
-	descripe('->createFromOrder()',function(){
+describe('InvoiceFactory', function(){
+	describe('->createFromOrder()',function(){
 
 		it("should return an order object", function(){
 			$order   = new Order();
